@@ -37,6 +37,32 @@
         .date-row {
             margin-bottom: 0.75rem;
         }
+
+        .challenge-title {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 0.6rem;
+        }
+
+        .challenge-title .title-logo {
+            height: 0.9em;
+            width: auto;
+            max-width: 100%;
+        }
+
+        @media (min-width: 992px) {
+            #sideNav .navbar-brand {
+                display: none;
+            }
+
+            #sideNav .navbar-collapse {
+                width: 100%;
+                padding: 0 1rem;
+                margin-top: auto;
+                margin-bottom: auto;
+            }
+        }
     </style>
 </head>
 
@@ -64,7 +90,7 @@
                     <a class="nav-link js-scroll-trigger" href="#call-for-participation">Call for participation</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#organising-committee">Contact</a>
+                    <a class="nav-link js-scroll-trigger" href="#organising-committee">Organising committee</a>
                 </li>
             </ul>
         </div>
@@ -75,22 +101,19 @@
             <div class="w-100">
                 <div class="row">
                     <div class="col-md-9 col-sm-12">
-                        <div>
-                            <img src="../img/GENEA_logo.png" class="img-fluid rounded mt-2" width="300" alt="GENEA"
-                                title="GENEA">
-                        </div>
-
-                        <h1 class="mb-2">GENEA Challenge 2026</h1>
+                        <h1 class="mb-2 challenge-title">
+                            <img src="../img/GENEA_logo_transparent.png" class="title-logo" alt="GENEA" title="GENEA">
+                            <span>Challenge 2026</span>
+                        </h1>
 
                         <div class="subheading mb-5">Generation and Evaluation of Non-verbal Behaviour for Embodied
                             Agents</div>
 
                         <div class="announcement-box">
                             <h2>&#9733; Latest news &#9733;</h2>
-                            <p><b>GENEA Challenge 2026 launches on April 12, 2026.</b></p>
-                            <p>The workshop takes place in Malmo on September 8, 2026. Key dates for the test sequence
-                                release, publication-track submission, notification, and camera-ready deadline are
-                                listed below.</p>
+                            <p><b>GENEA Challenge 2026 launched on April 12, 2026.</b></p>
+                            <p>Key dates for test sequence release, test movement submission, evaluation results, paper
+                                submission, author notifications, and the camera-ready deadline are listed below.</p>
                         </div>
 
                         <p>
@@ -100,14 +123,14 @@
                         </p>
 
                         <p>
-                            The 2026 edition begins with the challenge launch on April 12, 2026, followed by the test
-                            sequence release on June 21, 2026. Publication-track submissions are due on June 28 or
-                            July 3, 2026, with the final date still to be confirmed.
+                            The 2026 edition launched on April 12, 2026. Test sequences were released on June 21,
+                            2026, test movements are submitted on June 28, 2026, evaluation results are released on
+                            July 10, 2026, and the paper submission deadline is July 15, 2026.
                         </p>
 
                         <p>
-                            Author notification is scheduled for August 3, 2026, camera-ready versions are due on
-                            August 8, 2026, and the workshop will take place in Malmo on September 8, 2026.
+                            Author notifications are scheduled for August 3, 2026, and camera-ready versions are due
+                            on August 8, 2026.
                         </p>
 
                         <p>
@@ -146,32 +169,35 @@
         <section class="iva-section p-3 p-lg-5 d-flex align-items-center" id="important-dates">
             <div class="w-100">
                 <h2 class="mb-5">Important dates</h2>
-                <p>The publication-track submission deadline is currently listed as June 28 or July 3, 2026, pending
-                    final confirmation.</p>
+                <p>The current 2026 challenge timeline is listed below.</p>
 
                 <div class="row date-row">
                     <div class="col-md-4"><b>April 12, 2026</b></div>
-                    <div class="col-md-8">Challenge launch</div>
+                    <div class="col-md-8">Challenge launched</div>
                 </div>
                 <div class="row date-row">
                     <div class="col-md-4"><b>June 21, 2026</b></div>
                     <div class="col-md-8">Test sequences released</div>
                 </div>
                 <div class="row date-row">
-                    <div class="col-md-4"><b>June 28 or July 3, 2026 (TBC)</b></div>
-                    <div class="col-md-8">Publication-track submission deadline</div>
+                    <div class="col-md-4"><b>June 28, 2026</b></div>
+                    <div class="col-md-8">Test movements submitted</div>
+                </div>
+                <div class="row date-row">
+                    <div class="col-md-4"><b>July 10, 2026</b></div>
+                    <div class="col-md-8">Evaluation results released</div>
+                </div>
+                <div class="row date-row">
+                    <div class="col-md-4"><b>July 15, 2026</b></div>
+                    <div class="col-md-8">Paper submission deadline</div>
                 </div>
                 <div class="row date-row">
                     <div class="col-md-4"><b>August 3, 2026</b></div>
-                    <div class="col-md-8">Author notification</div>
+                    <div class="col-md-8">Author notifications</div>
                 </div>
                 <div class="row date-row">
                     <div class="col-md-4"><b>August 8, 2026</b></div>
                     <div class="col-md-8">Camera-ready version deadline</div>
-                </div>
-                <div class="row date-row">
-                    <div class="col-md-4"><b>September 8, 2026</b></div>
-                    <div class="col-md-8">Workshop takes place in Malmo</div>
                 </div>
             </div>
         </section>
@@ -189,9 +215,10 @@
                 </p>
 
                 <p>
-                    The 2026 timeline includes a public launch, release of test sequences, review of
-                    publication-track submissions, and an in-person workshop in Malmo. This page can be extended with
-                    additional challenge materials and submission instructions as they become available.
+                    The 2026 timeline includes the challenge launch, release of test sequences, submission of test
+                    movements, release of evaluation results, and the paper submission and review cycle. This page can
+                    be extended with additional challenge materials and submission instructions as they become
+                    available.
                 </p>
 
                 <p>
@@ -216,9 +243,11 @@
                         </p>
 
                         <p>
-                            Participants should track the April 12, 2026 launch date and the June 21, 2026 release of
-                            test sequences. The publication-track submission deadline is currently listed as June 28 or
-                            July 3, 2026, with the final date still to be confirmed.
+                            Participants should track the full 2026 schedule: April 12, 2026 for the challenge
+                            launch, June 21, 2026 for test sequence release, June 28, 2026 for test movement
+                            submission, July 10, 2026 for evaluation results, July 15, 2026 for paper submission,
+                            August 3, 2026 for author notifications, and August 8, 2026 for the camera-ready
+                            deadline.
                         </p>
 
                         <p>
@@ -234,11 +263,124 @@
 
         <section class="iva-section p-3 p-lg-5 d-flex align-items-center" id="organising-committee">
             <div class="w-100">
-                <h2 class="mb-5">Contact</h2>
+                <h2 class="mb-5">Organising committee</h2>
                 <p>Questions about the challenge can be sent to <a
                         href="mailto:genea-challenge@googlegroups.com">genea-challenge@googlegroups.com</a>.</p>
-                <p>Further information about organisers, materials, and submission procedures can be added to this page
-                    as the 2026 challenge is finalized.</p>
+                <p class="mb-4">The organiser list below is restored from the previous challenge page.</p>
+
+                <h4>Challenge organisers</h4>
+
+                <div class="row">
+                    <div class="col-sm-12 col-md-6">
+                        <div class="row">
+                            <div class="col-5">
+                                <img src="../img/taras.jpg" class="img-fluid rounded" alt="Taras Kucherenko">
+                            </div>
+                            <div class="col-7">
+                                <a href="https://svito-zar.github.io/" target="_blank"
+                                    style="font-weight: bold;">Taras Kucherenko</a>
+                                <br>
+                                Electronic Arts (EA) <br> Sweden
+                            </div>
+                        </div>
+                        <hr>
+                    </div>
+
+                    <div class="col-sm-12 col-md-6">
+                        <div class="row">
+                            <div class="col-5">
+                                <img src="../img/youngwoo.jpg" class="img-fluid rounded" alt="Youngwoo Yoon">
+                            </div>
+                            <div class="col-7">
+                                <a href="https://sites.google.com/view/youngwoo-yoon/" target="_blank"
+                                    style="font-weight: bold;">Youngwoo Yoon</a>
+                                <br>
+                                ETRI <br> South Korea
+                            </div>
+                        </div>
+                        <hr>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-12 col-md-6">
+                        <div class="row">
+                            <div class="col-5">
+                                <img src="../img/rajmund.png" class="img-fluid rounded" alt="Rajmund Nagy">
+                            </div>
+                            <div class="col-7">
+                                <a href="https://nagyrajmund.github.io/" target="_blank"
+                                    style="font-weight: bold;">Rajmund Nagy</a>
+                                <br>
+                                KTH Royal Institute of Technology <br> Sweden
+                            </div>
+                        </div>
+                        <hr>
+                    </div>
+
+                    <div class="col-sm-12 col-md-6">
+                        <div class="row">
+                            <div class="col-5">
+                                <img src="../img/SilviaArellanoGarcia.png" class="img-fluid rounded" alt="Silvia Arellano García">
+                            </div>
+                            <div class="col-7">
+                                <a href="https://silviaarellanogarcia.github.io/" target="_blank"
+                                    style="font-weight: bold;">Silvia Arellano García</a>
+                                <br>
+                                KTH Royal Institute of Technology <br> Sweden
+                            </div>
+                        </div>
+                        <hr>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-12 col-md-6">
+                        <div class="row">
+                            <div class="col-5">
+                                <img src="../img/mihail.png" class="img-fluid rounded" alt="Mihail Tsakov">
+                            </div>
+                            <div class="col-7">
+                                <a href="https://www.liahim.net/" target="_blank"
+                                    style="font-weight: bold;">Mihail Tsakov</a>
+                                <br>
+                                Research Engineer <br> Netherlands
+                            </div>
+                        </div>
+                        <hr>
+                    </div>
+
+                    <div class="col-sm-12 col-md-6">
+                        <div class="row">
+                            <div class="col-5">
+                                <img src="../img/teodor.jpeg" class="img-fluid rounded" alt="Teodor Nikolov">
+                            </div>
+                            <div class="col-7">
+                                <a href="https://teonikolov.com" target="_blank"
+                                    style="font-weight: bold;">Teodor Nikolov</a>
+                                <br>
+                                Motorica AI <br> Netherlands
+                            </div>
+                        </div>
+                        <hr>
+                    </div>
+                </div>
+
+                 <div class="row"></div>
+                    <div class="col-sm-12 col-md-6">
+                        <div class="row">
+                            <div class="col-5">
+                                <img src="../img/gustav.jpeg" class="img-fluid rounded" alt="Gustav Eje Henter">
+                            </div>
+                            <div class="col-7">
+                                <a href="https://people.kth.se/~ghe/" target="_blank"
+                                    style="font-weight: bold;">Gustav Eje Henter</a>
+                                <br>
+                                KTH Royal Institute of Technology <br> Sweden
+                            </div>
+                        </div>
+                        <hr>
+                    </div>
             </div>
         </section>
     </div>
@@ -252,13 +394,13 @@
 
     <!-- Custom scripts for this template -->
     <script src="../js/iva.min.js"></script>
-
-    <!-- Panelbear -->
-    <script async src="https://cdn.panelbear.com/analytics.js?site=9bGH0f0hxBy"></script>
-    <script>
-        window.panelbear = window.panelbear || function () { (window.panelbear.q = window.panelbear.q || []).push(arguments); };
-        panelbear('config', { site: '9bGH0f0hxBy' });
-    </script>
 </body>
+
+<!-- Panelbear -->
+<script async src="https://cdn.panelbear.com/analytics.js?site=9bGH0f0hxBy"></script>
+<script>
+    window.panelbear = window.panelbear || function () { (window.panelbear.q = window.panelbear.q || []).push(arguments); };
+    panelbear('config', { site: '9bGH0f0hxBy' });
+</script>
 
 </html>
